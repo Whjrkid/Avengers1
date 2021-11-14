@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>Avengers</title>
+  <link rel="stylesheet" href="avengers.css"
+    </head>
+    <body>
+        <center>
+        <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+            <div class="navbar-header"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> <span class="icon-bar">
+                </span> </button> <a class="navbar-brand" href="#">Photo Gallery</a> </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+            </div>
+        </nav>
+        <img id="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREjhAcGIzTaqbyKY9Y6vHhAAkgroJM0tSGzg&usqp=CAU">
+        <br>
+        <br>
+        <h1>Grid Gallery</h4>
+            <br>
+            <span>
+                <img id="avenger" src="spiderman.png">
+                <img id="avenger" src="hulk.png">
+                <img id="avenger" src="captain.png">
+            </span>
+            <div></div>
+            <span>
+                <img id="avenger" src="Thor.jpeg">
+                <img id="avenger" src="Panther.jpeg">
+                <img id="avenger" src="Iron.jpeg">
+            </span>
+            <br>
+            <br>
+            <h1>Sliding Gallery</h1>
+            <br>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center>
+                            <img id="avenger" src="Thanos.jpeg" class="img-responsive"></a><div class="carousel-content"><p>Thanos</p></div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                                <img id="avenger" src="Venom.jpeg" class="img-responsive">
+                                <div class="carousel-content">
+                                    <p>Venom</p>
+                                </div>
+                            </a>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                                <img id="avenger" src="Ultron.jpeg" class="img-responsive">
+                                <div class="carousel-content">
+                                    <p>Ultron</p>
+                                </div>
+                            </a>
+                        </center>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+    </center>
+    </body>
+</html>
